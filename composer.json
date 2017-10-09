@@ -1,0 +1,44 @@
+{
+    "name": "jgile/you-directive",
+    "description": "Blade directive ifYou and ifNotYou",
+    "keywords": [
+        "laravel",
+        "jgile",
+        "you-directive"
+    ],
+    "homepage": "https://github.com/jgile/you-directive",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Gile",
+            "email": "jgile@cliquestudios.com",
+            "homepage": "https://www.cliquestudios.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.5.0",
+        "illuminate/support": "~5.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jgile\\YouDirective\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jgile\\YouDirective\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
