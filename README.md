@@ -1,6 +1,3 @@
-
-[![Software License][ico-license]](LICENSE.md)
-
 # you-directive
 Blade directive @you and @notYou.  Both act as if statements testing whether the current user is the passed user.
 
