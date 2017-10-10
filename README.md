@@ -9,6 +9,15 @@ Via Composer
 $ composer require jgile/you-directive
 ```
 
+Add to service provider to your config/app.php file providers array.
+``` php
+ 'providers' => [
+    ...
+    JGile\YouDirective\ServiceProvider::class,
+    ...
+ ],
+```
+
 ## Usage
 
 In any *.blade.php file.  @you and @notYou both accept either an App\User model or user id.
