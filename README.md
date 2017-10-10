@@ -29,16 +29,3 @@ $user_model = App\User::find(1);
     // do something
 @endyou
 ```
-
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
-## Credits
-
-- [John Gile][link-author]
-- [All Contributors][link-contributors]
-
-## License
-
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
