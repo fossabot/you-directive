@@ -1,6 +1,6 @@
 {
     "name": "jgile/you-directive",
-    "description": "Blade directive ifYou and ifNotYou",
+    "description": "Blade directive @you and @notYou",
     "keywords": [
         "laravel",
         "jgile",
