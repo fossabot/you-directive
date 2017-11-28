@@ -34,7 +34,7 @@ $user_id = 1;
 $user_model = App\User::find(1);
 
 // if current is not the passed user
-@notYou($user_model)
+@notyou($user_model)
     // do something
-@endyou
+@endnotyou
 ```
