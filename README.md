@@ -1,4 +1,6 @@
 # you-directive
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjgile%2Fyou-directive.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjgile%2Fyou-directive?ref=badge_shield)
+
 Blade directive @you and @notYou.  Both act as if statements testing whether the current user is the passed user.
 
 ## Install
@@ -38,3 +40,7 @@ $user_model = App\User::find(1);
     // do something
 @endnotYou
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjgile%2Fyou-directive.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjgile%2Fyou-directive?ref=badge_large)
